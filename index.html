@@ -11,7 +11,7 @@
 <body>
 <div id="root">
     <div class="video">
-        <video id="video" preload autoplay muted loop src="./static/video/background.mp4"></video>
+        <video id="video" muted loop src="./static/video/background.mp4" poster="./static/images/background.jpg" preload="none"></video>
     </div>
     <div class="center-block">
         <div class="card">
@@ -36,6 +36,9 @@
     </div>
 </div>
 
+<script type="text/javascript" async>
+    document.getElementById("video").play();
+</script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" async>
   (function(m, e, t, r, i, k, a) {

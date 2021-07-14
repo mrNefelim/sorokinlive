@@ -26,6 +26,7 @@ body {
 }
 
 .card {
+    box-sizing: border-box;
     padding: 20px 100px 20px 20px;
     background: #1F2020;
 }
@@ -70,4 +71,20 @@ body {
 .icons a:hover img {
     opacity: 1;
     transform: rotate(-10deg);
+}
+
+@media (max-width: 520px) {
+    .box {
+        display: none;
+    }
+    .text {
+        margin: 0;
+    }
+    .card {
+        width: 100%;
+        padding: 20px;
+    }
+    .icons a {
+        display: inline-block;
+    }
 }

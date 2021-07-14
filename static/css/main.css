@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #1F2020;
+}
+
+.video {
+    position: fixed;
+    z-index: -1;
+}
+
+#root {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-block > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card {
+    padding: 20px 100px 20px 20px;
+    background: #1F2020;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 135px;
+    height: 135px;
+    border: 5px solid #fff;
+}
+
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -65px;
+    background: #1F2020;
+    color: #fff;
+    font-family: monospace, serif;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: start;
+    letter-spacing: 1px;
+}
+
+.text h3 {
+    font-weight: lighter;
+}
+
+.icons a {
+    display: block;
+    margin: 10px;
+}
+
+.icons a img {
+    width: 56px;
+    transition: .4s;
+    opacity: .7;
+    border-radius: 50%;
+}
+
+.icons a:hover img {
+    opacity: 1;
+    transform: rotate(-10deg);
+}

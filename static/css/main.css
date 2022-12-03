@@ -13,6 +13,7 @@ body {
     height: 100%;
     position: fixed;
     z-index: -1;
+    background-color: #f7cb3a;
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: 70%;
